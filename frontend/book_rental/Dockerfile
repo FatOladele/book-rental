@@ -6,7 +6,7 @@ COPY package.json ./
 RUN npm install
 
 COPY . .
-RUN ls -al
+
 EXPOSE 8080
 
 # RUN npm run serve

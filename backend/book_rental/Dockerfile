@@ -9,7 +9,6 @@ COPY django.sh ./
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
-RUN ls -al
 
 EXPOSE 8000
 

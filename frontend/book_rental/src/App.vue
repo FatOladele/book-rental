@@ -37,7 +37,7 @@
         <v-icon>mdi-open-in-new</v-icon>
       </v-btn>
       <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
+        href="https://github.com/FatOladele/book-rental"
         target="_blank"
         text
       >
