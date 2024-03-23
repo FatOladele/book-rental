@@ -34,8 +34,7 @@ services:
       - ./backend/book_rental/.env.docker:/app/.env
       - ./backend/book_rental/logs:/app/logs
     depends_on:
-      postgres:
-        condition: service_healthy
+      - postgres
     ports:
       - "8000:8000"
 
